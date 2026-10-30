@@ -1,4 +1,4 @@
-package inverttree;
+package tree.inverttree;
 
 import common.TreeNode;
 

@@ -1,5 +1,7 @@
 package averaglevels;
 
+
+
 import common.TreeNode;
 
 import java.util.*;
@@ -11,7 +13,7 @@ public class Solution {
             return Collections.emptyList();
         }
 
-        List<TreeNode> deque = new ArrayList<>();
+        Queue<TreeNode> deque = new LinkedList<>();
         deque.add(root);
         List<Double> result = new ArrayList<>();
 
@@ -19,7 +21,7 @@ public class Solution {
             int size = deque.size();
             int sumOfLeveles = 0;
             for (int i = 0; i < size; i++) {
-                TreeNode treeNode =  deque.removeFirst();
+                TreeNode treeNode =  deque.poll();
 
                 sumOfLeveles = sumOfLeveles + treeNode.val;
 
