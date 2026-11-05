@@ -1,4 +1,4 @@
-package bsiterator;
+package bst.bsiterator;
 
 import common.TreeNode;
 

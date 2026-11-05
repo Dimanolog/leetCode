@@ -1,4 +1,4 @@
-package isvalidbst;
+package bst.isvalidbst;
 
 import common.TreeNode;
 

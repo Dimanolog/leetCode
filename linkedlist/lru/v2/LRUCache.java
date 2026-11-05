@@ -1,4 +1,4 @@
-package lru.v2;
+package linkedlist.lru.v2;
 
 import java.util.*;
 

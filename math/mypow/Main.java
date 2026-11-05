@@ -1,6 +1,4 @@
-package mypow;
-
-import java.util.Arrays;
+package math.mypow;
 
 public class Main {
     public static void main(String[] args) {
