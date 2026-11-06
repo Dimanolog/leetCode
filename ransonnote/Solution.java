@@ -1,7 +1,5 @@
 package ransonnote;
 
-import java.util.HashMap;
-
 public class Solution {
 
     public boolean canConstruct(String ransomNote, String magazine) {
