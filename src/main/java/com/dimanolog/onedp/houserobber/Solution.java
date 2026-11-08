@@ -3,6 +3,10 @@ package com.dimanolog.onedp.houserobber;
 public class Solution {
 
     public int rob(int[] nums) {
+        if (nums == null || nums.length == 0) {
+            return 0;
+        }
+
         int prev1 = 0;
         int prev2 = 0;
 
